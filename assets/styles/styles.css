@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap");
+body {
+  max-width: 1440px;
+  background-color: whitesmoke;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Quicksand', serif;
+  font-weight: 400;
+  text-decoration: none;
+  list-style: none;
+}
+
+@-webkit-keyframes example {
+  0% {
+    -webkit-filter: invert(1);
+            filter: invert(1);
+  }
+  25% {
+    -webkit-filter: invert(0.3);
+            filter: invert(0.3);
+  }
+  50% {
+    -webkit-filter: invert(0.5);
+            filter: invert(0.5);
+  }
+  100% {
+    -webkit-filter: invert(0.75);
+            filter: invert(0.75);
+  }
+}
+
+@keyframes example {
+  0% {
+    -webkit-filter: invert(1);
+            filter: invert(1);
+  }
+  25% {
+    -webkit-filter: invert(0.3);
+            filter: invert(0.3);
+  }
+  50% {
+    -webkit-filter: invert(0.5);
+            filter: invert(0.5);
+  }
+  100% {
+    -webkit-filter: invert(0.75);
+            filter: invert(0.75);
+  }
+}
+
+header {
+  background-image: url(../images/head.png);
+  text-transform: uppercase;
+  padding: 10% 0 30% 10%;
+  background-position: right;
+  background-size: 40%;
+  background-repeat: no-repeat;
+}
+
+header h1 {
+  color: rgba(31, 147, 255, 0.925);
+}
+
+header p {
+  width: 30%;
+  line-height: 180%;
+  font-size: 20px;
+}
+
+.first {
+  background-image: url(../images/right.png);
+  background-position: right;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.first, .second {
+  background-repeat: no-repeat;
+  background-size: 40%;
+  padding-bottom: 700px;
+}
+
+.second {
+  background-image: url(../images/left.png);
+  background-position: left;
+}
+
+.secondSec {
+  padding-bottom: 700px;
+  position: relative;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.firstheading {
+  margin-left: 16%;
+  position: absolute;
+  bottom: -30%;
+}
+
+.secondHeading {
+  position: absolute;
+  margin-left: 63%;
+  bottom: -180%;
+  margin-bottom: 30%;
+}
+
+.crazy {
+  padding-top: 30%;
+}
+
+.crazyness {
+  text-align: right;
+  position: absolute;
+  right: -10%;
+  bottom: 50%;
+  color: #6db8f5;
+}
+
+.crazyImg {
+  width: 80%;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding: 0%;
+  position: relative;
+}
+
+.crazyImg:hover {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.imgc {
+  width: 80%;
+}
+
+.and {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer form {
+  display: inline-block;
+  padding: 3% 20%;
+}
+
+footer form * {
+  border-radius: 20px;
+  display: block;
+}
+
+footer label, footer a {
+  margin-top: 2%;
+}
+
+footer a {
+  padding: 2%;
+  color: black;
+  background-color: #6db8f5;
+  display: inline-block;
+}
+/*# sourceMappingURL=styles.css.map */

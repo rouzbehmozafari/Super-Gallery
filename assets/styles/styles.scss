@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');body {
+    max-width: 1440px;
+    background-color: rgb(245, 245, 245);
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', serif;
+    font-weight: 400;
+    text-decoration: none;
+    list-style: none;
+}
+@keyframes example {
+    0%   {filter: invert(1);}
+    25%  {filter: invert(.3);}
+    50%  {filter: invert(0.5);}
+    100% {filter: invert(.75);}
+  }
+header {
+    background-image: url(../images/head.png);
+    text-transform: uppercase;
+    padding: 10% 0 30% 10%;
+    background-position: right;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    // animation-name: example;
+    // animation-duration: 10s;
+    // animation-iteration-count: infinite;
+    h1 {
+        // -webkit-text-stroke-width: 1px; 
+        // -webkit-text-stroke-color: black; 
+        color: rgba(31, 147, 255, 0.925);
+        // font-family: 'Courgette', cursive;
+
+    }    
+    p {
+        width: 30%;
+        line-height: 180%;
+        font-size: 20px;
+        // color: rgba(39, 86, 129, 0.925);
+    }
+}
+
+.first {
+    background-image: url(../images/right.png);
+    background-position: right;
+    position: sticky;
+    top: 0;
+}
+
+
+.first , .second {
+    background-repeat: no-repeat;
+    background-size: 40%;
+    padding-bottom: 700px;
+}
+
+.second {
+    background-image: url(../images/left.png);
+    background-position: left;
+}
+
+.secondSec {
+    padding-bottom: 700px;
+    position: relative;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.firstheading {
+    margin-left: 16%;
+    position: absolute;
+    bottom: -30%;
+}
+
+.secondHeading {
+    position: absolute;
+    margin-left: 63%;
+    bottom: -180%;
+    // padding-top: 2px;
+    margin-bottom: 30%;
+}
+.crazy {
+    padding-top: 30%;
+}
+.crazyness {
+    text-align: right;
+    position: absolute;
+    right: -10%;
+    bottom: 50%;
+    color: rgb(109, 184, 245);
+}
+
+.crazyImg {
+    width: 80%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 0%;
+    position: relative;
+    &:hover {
+        filter: invert(1);
+    }
+}
+
+.imgc {
+    width: 80%;
+}
+
+.and {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    // padding: 5% 35%;
+
+    form {
+        display: inline-block;
+        padding: 3% 20%;
+    }
+    form *{
+        border-radius: 20px ;
+        display: block;
+
+    }
+    label, a {
+        margin-top: 2%;
+    }
+    a {
+        padding: 2%;
+        color: black;
+        background-color: rgb(109, 184, 245);
+
+        display: inline-block;
+        
+    }
+}
+
+
+
